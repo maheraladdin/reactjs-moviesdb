@@ -1,0 +1,10 @@
+.dark-overlay {
+    opacity: 0;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.dark-overlay:hover {
+    opacity: 100%;
+    background: rgba(var(--bs-dark-rgb), 0.65);
+}
